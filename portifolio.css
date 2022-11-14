@@ -372,7 +372,7 @@ footer p{
     font-size: 14px;
     margin-top: 35px;
 }
-@media screen and (max-width:412px){
+@media screen and (max-width:425px){
     .icon-menu .menu{
         display: block;
     }
