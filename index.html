@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portifolio.css">
+    <link rel="stylesheet" href="icons-web/css/all.css">
+    <title>Matheus Barros</title>
+</head>
+<body>
+    <div class="backgroud">
+        <nav>
+            <h2 class="titulo">Portfó<span>lio</span></h2>
+            <ul class="cabeçalho-link">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre-mim">Sobre mim</a></li>
+                <li><a href="#serviços">Serviços</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contato">Contatos</a></li>
+            </ul> <!--cabeçalho-link-->
+            <a href="#" class="btn">Subscribe</a>
+        </nav>
+
+        <div class="main">
+            <a name="inicio"></a>
+            <h4>Olá, meu nome é</h4>
+            <h1>Matheus <span class="span2">Barros</span></h1>
+            <h3>Eu sou desenvolvedor front-end</h3>
+            <h4>Especialista em estilização web</h4>
+            <div class="container-btn">    
+                <form>
+                    <input type="email" name="email" id="main" placeholder="Envie seu E-mail">
+                    <input type="submit" name="submit" value="Começar">
+                </form>
+            </div> <!--container-btn-->
+        </div><!--main-->
+        <aside>
+            <div class="icon-menu" onclick="abrirmenu()">
+                <div class="menu">
+                    <i class="fa-solid fa-bars"></i>
+                </div> <!--menu-->
+            </div> <!--icon-menu-->
+
+            <div id="barra-menu">
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre-mim">Sobre mim</a></li>
+                    <li><a href="#serviços">Serviços</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#contato">Contatos</a></li>
+                    <a href="#" class="c-icon">Subscribe</a>
+                </ul> <!--cabeçalho-link-responsivo-->               
+            </div> <!--barra-menu-->
+        </aside>
+    </div> <!--backgroud-->
+
+    <section class="background-color-sobre">
+        <a name="sobre-mim"></a>
+        <div class="main-sobre">
+            <img src="backgroud-sobre-mim5.jpg" alt="">
+            <div class="text-sobre">
+                <h2>Sobre-Mim</h2>
+                <h5>Desenvolvedor <span class="span3">& Designer</span></h5>
+                <p>Especialista em estilização e personalização de paginas web | Desenvolvedor Full Stack em treinamento | JavaScript | HTML | CSS | Python Intermediário. Adobe Lightroom | Adobe Illustrator | Adobe Photoshop.</p>
+                <button class="button">Vamos conversar</button>
+            </div> <!--text-sobre-->
+        </div> <!--main-sobre-->
+    </section> <!--backgrous-color-sobre-->
+    
+    <div class="container-serviços">
+        <a name="serviços"></a>
+        <div class="titulo">
+            <h2>Nossos Serviços</h2>
+        </div> <!--titulo-->
+        <div class="caixa">
+            <div class="card">
+                <i class="fa fa-bars"></i>
+                <h5>Desenvolvimento Web</h5>
+                <p>Os sites devem ser construidos com dois principais objetivos: Primeiro, ele precisa funcionar em todos os dispositivos. Segundo, ele precisa ser o mais rapido possivel</p>
+                <button class="btn-ler-mais">Ler mais</button>
+            </div>
+
+            <div class="card">
+                <i class="fa fa-user"></i>
+                <h5>Desenvolvimento Web</h5>
+                <p>Os sites devem ser construidos com dois principais objetivos: Primeiro, ele precisa funcionar em todos os dispositivos. Segundo, ele precisa ser o mais rapido possivel</p>
+                <button class="btn-ler-mais">Ler mais</button>
+            </div>
+
+            <div class="card">
+                <i class="fa fa-bell" aria-hidden="true"></i>
+                <h5>Desenvolvimento Web</h5>
+                <p>Os sites devem ser construidos com dois principais objetivos: Primeiro, ele precisa funcionar em todos os dispositivos. Segundo, ele precisa ser o mais rapido possivel</p>
+                <button class="btn-ler-mais">Ler mais</button>
+            </div>
+        </div> <!--caixa-->
+    </div> <!--container-serviços-->
+
+    <div class="me-contacte">
+        <a name="contato"></a>
+        <p>Entre em contato para tirar todas as suas duvidas e fazermos um belissimo site para você</p>
+        <button class="button">Enviar mensagem</button>
+    </div> <!--me-contacte-->
+
+    <footer>
+        <a name="habilidades"></a>
+        <h6>Matheus Barros</h6>
+        <p>Para saber mais sobre meus projetos ou mais sobre mim, por favor clique nos links <br> abaixo e tenha acesso as minhas redes sociais</p>
+        <div class="redes-sociais">
+            <a href="https://instagram.com/matheusbarro.s?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/matheus-barros-9b333a202" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/MatheusBarros07" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div> <!--redes-sociais-->
+        <div class="end">
+            <p>CopyRight by Matheus Barros</p>
+        </div>
+    </footer>
+
+    <script src="portifolio.js"></script>
+</body>
+</html>
